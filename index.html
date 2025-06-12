@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pandora Lighting & Interiors</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <!-- Swiper CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/categories.css">
+  <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+
+  <!-- HEADER (as before) -->
+  <header id="main-header">
+    <div class="header-container">
+      <div class="logo">
+        <a href="/"><img src="images/logo.png" alt="Pandora Lighting Logo" /></a>
+      </div>
+
+      <button class="hamburger" aria-label="Toggle Menu">&#9776;</button>
+
+      <nav class="main-nav">
+        <a href="#home" data-i18n="home">Home</a>
+        <a href="#collection" data-i18n="collection">Collection</a>
+        <a href="#projects" data-i18n="projects">Projects</a>
+        <a href="#interiors" data-i18n="interiors">Interior Design</a>
+        <a href="#contact" data-i18n="contact">Contact</a>
+      </nav>
+
+
+      <div class="lang-wrapper">
+        <select class="language-select">
+          <option value="en">English</option>
+          <option value="tr">Türkçe</option>
+          <option value="it">Italiano</option>
+          <option value="ru">Русский</option>
+          <option value="ar">العربية</option>
+          <option value="he">עברית</option>
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+  <div class="swiper hero-swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="images/3.jpg" alt="Slide 1"></div>
+      <div class="swiper-slide"><img src="images/6.jpg" alt="Slide 2"></div>
+      <div class="swiper-slide"><img src="images/8.jpg" alt="Slide 3"></div>
+      <div class="swiper-slide"><img src="images/10.jpg" alt="Slide 4"></div>
+      <div class="swiper-slide"><img src="images/14.jpg" alt="Slide 5"></div>
+      <div class="swiper-slide"><img src="images/20.jpg" alt="Slide 6"></div>
+      <div class="swiper-slide"><img src="images/122.svg" alt="Slide 7"></div>
+    </div>
+  </div>
+
+  <div class="hero-overlay">
+    <h2 data-i18n="hero_title">Custom Handmade Lighting</h2>
+    <p data-i18n="hero_subtitle">Modern chandeliers and lighting solutions — uniquely crafted for every space since 2015</p>
+    <div class="buttons">
+      <a href="#collection" data-i18n="explore_lighting">Explore Lighting</a>
+      <a href="#interiors" data-i18n="interior_design">Interior Design</a>
+    </div>
+  </div>
+</section>
+
+  <!-- SHOP BY CATEGORY SECTION -->
+  <section class="shop-category">
+  <h2 data-i18n="shop_by_category">Shop By Category</h2>
+  <div class="category-icons">
+    <div class="category-item">
+      <img src="images/122.svg" alt="Chandeliers & Pendants">
+      <span data-i18n="chandeliers_pendants">Chandeliers</span>
+    </div>
+    <div class="category-item">
+      <img src="images/ceiling.webp" alt="Ceiling">
+      <span data-i18n="ceiling">Ceiling</span>
+    </div>
+    <div class="category-item">
+      <img src="images/aplik.jpg" alt="Wall">
+      <span data-i18n="wall">Wall</span>
+    </div>
+    <div class="category-item">
+      <img src="images/bath.webp" alt="Bath">
+      <span data-i18n="bath">Bath</span>
+    </div>
+    <div class="category-item">
+      <img src="images/masalamba.jpg" alt="Floor & Table">
+      <span data-i18n="floor_table">Floor & Table</span>
+    </div>
+    <div class="category-item">
+      <img src="images/spot.jpeg" alt="Recessed">
+      <span data-i18n="recessed">Recessed</span>
+    </div>
+    <div class="category-item">
+      <img src="images/aksesuar.jpg" alt="Accessories">
+      <span data-i18n="accessories">Accessories</span>
+    </div>
+    <div class="category-item">
+      <img src="images/bulb.webp" alt="Bulbs">
+      <span data-i18n="bulbs">Bulbs</span>
+    </div>
+  </div>
+</section>
+
+
+  <!-- NEW: LIGHTING CATEGORIES SECTION -->
+  <section class="lighting-categories" id="categories">
+    <h2 class="section-title">Lighting Categories</h2>
+    <p class="section-subtitle">Discover our diverse range of lighting solutions for every space</p>
+        
+    <div class="category-grid">
+      <div class="category-card">
+        <a href="chandeliers.html">
+        <div class="icon"><img src="images/27.svg" alt="Chandelier Icon"></div>
+        <h3>Chandeliers</h3>
+        <p>Elegant statement pieces that transform any room into a luxurious space.</p>
+        <span class="link-text">Explore Collection →
+          <span class="tooltip">
+          <span class="link-text">Explore Collection →</span>
+        </span>
+
+        </span>
+        </a>
+      </div>
+      <div class="category-card">
+        <div class="icon"><img src="images/27.svg" alt="Pendant Icon"></div>
+        <h3>Pendant Lights</h3>
+        <p>Versatile lighting solutions perfect for dining areas, kitchens, and entryways.</p>
+        <a href="#collection">Explore Collection →</a>
+      </div>
+      <div class="category-card">
+        <div class="icon"><img src="images/icon-wall.svg" alt="Wall Sconce Icon"></div>
+        <h3>Wall Sconces</h3>
+        <p>Elegant wall-mounted fixtures that add sophistication and ambient lighting.</p>
+        <a href="#collection">Explore Collection →</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2015–2025 Pandora Aydınlatma. All rights reserved.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="translations.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script>
+    // Language switcher
+    const languageSelect = document.querySelector('.language-select');
+    languageSelect.addEventListener('change', (e) => {
+      const selectedLang = e.target.value;
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (translations[selectedLang] && translations[selectedLang][key]) {
+          el.textContent = translations[selectedLang][key];
+        }
+      });
+    });
+
+    // Shrink header on scroll
+    window.addEventListener('scroll', function () {
+      const header = document.getElementById('main-header');
+      if (window.scrollY > 80) {
+        header.classList.add('scrolled');
+      } else {
+        header.classList.remove('scrolled');
+      }
+    });
+
+    // Hamburger menu
+    document.querySelector('.hamburger').addEventListener('click', () => {
+      document.getElementById('main-header').classList.toggle('open');
+    });
+
+    // ScrollReveal animations
+    ScrollReveal().reveal('.lighting-categories .section-title', {
+      origin: 'top',
+      distance: '30px',
+      duration: 800,
+      delay: 100,
+      easing: 'ease-in-out',
+      reset: false
+    });
+
+    ScrollReveal().reveal('.lighting-categories .section-subtitle', {
+      origin: 'top',
+      distance: '20px',
+      duration: 700,
+      delay: 200,
+      easing: 'ease-in-out',
+      reset: false
+    });
+
+    ScrollReveal().reveal('.category-card', {
+      interval: 200,
+      origin: 'bottom',
+      distance: '40px',
+      duration: 1000,
+      easing: 'ease-in-out',
+      reset: false
+    });
+  </script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+  const heroSwiper = new Swiper('.hero-swiper', {
+    loop: true,
+    autoplay: {
+      delay: 4000,
+      disableOnInteraction: false,
+    },
+    speed: 1000,
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    }
+  });
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+const translations = {
+  en: {
+    shop_by_category: "Shop by Category",
+    hero_title: "Custom Handmade Lighting",
+    hero_subtitle: "Modern chandeliers and lighting solutions — uniquely crafted for every space since 2015",
+    explore_lighting: "Explore Lighting",
+    interior_design: "Interior Design",
+    home: "Home",
+    collection: "Collection",
+    projects: "Projects",
+    interiors: "Interior Design",
+    contact: "Contact"
+  },
+  tr: {
+    shop_by_category: "Kategoriye Görüntüle",
+    chandeliers_pendants: "Avize & Sarkıtlar",
+    ceiling: "Taban Aydınlatma",
+    wall: "Aplik",
+    bath: "Banyo",
+    floor_table: "Lambader & Abajur",
+    recessed: "Spot Aydınlatma",
+    outdoor_lighting: "Dış Aydınlatma",
+    hero_title: "Özel El Yapımı Aydınlatma",
+    hero_subtitle: "2015’ten bu yana modern avizeler ve kişiye özel ışık çözümleri",
+    explore_lighting: "Aydınlatmayı Keşfet",
+    interior_design: "İç Mekan Tasarımı",
+    home: "Ana Sayfa",
+    collection: "Koleksiyon",
+    projects: "Projeler",
+    interiors: "İç Tasarım",
+    contact: "İletişim"
+  },
+  ru: {
+    shop_by_category: "Магазин по категориям",
+    chandeliers_pendants: "Люстры и подвески",
+    ceiling: "Потолочное освещение",
+    wall: "Стенное освещение",
+    bath: "Ванные комнаты",
+    floor_table: "Потолочное освещение",
+    recessed: "Потолочное освещение",
+    outdoor_lighting: "Домашнее освещение",
+    
+    hero_title: "Индивидуальное освещение ручной работы",
+    hero_subtitle: "Современные люстры и освещение, созданные специально для каждого пространства с 2015 года",
+    explore_lighting: "Посмотреть освещение",
+    interior_design: "Дизайн интерьера",
+    home: "Главная",
+    collection: "Коллекция",
+    projects: "Проекты",
+    interiors: "Дизайн интерьера",
+    contact: "Контакты"
+  },
+  it: {
+    hero_title: "Illuminazione Artigianale su Misura",
+    hero_subtitle: "Lampadari moderni realizzati a mano per ogni ambiente dal 2015",
+    explore_lighting: "Scopri Illuminazione",
+    interior_design: "Design d'Interni",
+    home: "Home",
+    collection: "Collezione",
+    projects: "Progetti",
+    interiors: "Interior Design",
+    contact: "Contatto"
+  },
+  ar: {
+    hero_title: "إضاءة مصنوعة يدويًا حسب الطلب",
+    hero_subtitle: "ثريات حديثة وحلول إضاءة مصممة لكل مساحة منذ عام 2015",
+    explore_lighting: "اكتشف الإضاءة",
+    interior_design: "تصميم داخلي",
+    home: "الرئيسية",
+    collection: "مجموعة",
+    projects: "مشاريع",
+    interiors: "تصميم داخلي",
+    contact: "اتصال"
+  },
+  he: {
+    hero_title: "תאורה בעבודת יד מותאמת אישית",
+    hero_subtitle: "נברשות מודרניות ותאורה בהתאמה אישית מאז 2015",
+    explore_lighting: "גלה תאורה",
+    interior_design: "עיצוב פנים",
+    home: "בית",
+    collection: "אוסף",
+    projects: "פרויקטים",
+    interiors: "עיצוב פנים",
+    contact: "צור קשר"
+  }
+};
